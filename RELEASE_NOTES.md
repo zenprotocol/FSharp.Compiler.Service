@@ -1,3 +1,6 @@
+#### 13.0.1
+  * Warning instead of Error on unused type parameters in type abbreviations
+
 #### 13.0.0
   * Move FSharp.Compiler.Service.MSBuild.v12.dll to a separate nuget package
   

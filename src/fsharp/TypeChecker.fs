@@ -14841,7 +14841,7 @@ module EstablishTypeDefinitionCores =
                         let ftyvs = freeInTypeLeftToRight cenv.g false ty 
                         let typars = tycon.Typars(m)
                         if ftyvs.Length <> typars.Length then 
-                            errorR(Deprecated(FSComp.SR.tcTypeAbbreviationHasTypeParametersMissingOnType(),tycon.Range))
+                            warning(Deprecated(FSComp.SR.tcTypeAbbreviationHasTypeParametersMissingOnType(),tycon.Range))
 
                     if firstPass then
                         tycon.entity_tycon_abbrev <- Some ty
