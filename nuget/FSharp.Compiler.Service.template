@@ -1,5 +1,5 @@
 type file
-id FSharp.Compiler.Service
+id Zen.FSharp.Compiler.Service
 description
     The F# compiler services package contains a custom build of the F# compiler that
 	exposes additional functionality for implementing F# language bindings, additional
@@ -15,10 +15,10 @@ iconurl https://raw.github.com/fsharp/FSharp.Compiler.Service/master/misc/logo.p
 tags
     F#, fsharp, interactive, compiler, editor
 files
-    ../bin/v4.5/FSharp.Compiler.Service.dll ==> lib/net45
-    ../bin/v4.5/FSharp.Compiler.Service.xml ==> lib/net45
-    ../bin/v4.5/FSharp.Compiler.Service.?db ==> lib/net45
-    ../bin/v4.5/FSharp.Compiler.Service.dll.?db ==> lib/net45
+    ../bin/v4.5/Zen.FSharp.Compiler.Service.dll ==> lib/net45
+    ../bin/v4.5/Zen.FSharp.Compiler.Service.xml ==> lib/net45
+    ../bin/v4.5/Zen.FSharp.Compiler.Service.?db ==> lib/net45
+    ../bin/v4.5/Zen.FSharp.Compiler.Service.dll.?db ==> lib/net45
 dependencies
 	System.Collections.Immutable >= LOCKEDVERSION
 	System.Reflection.Metadata >= LOCKEDVERSION
